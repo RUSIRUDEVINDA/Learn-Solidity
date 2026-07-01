@@ -1,0 +1,18 @@
+{
+  "hello.sol": {
+    "__sources__": {
+      "hello.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\n\r\n\r\n",
+        "file": "hello.sol"
+      }
+    }
+  },
+  "calculator.sol": {
+    "__sources__": {
+      "calculator.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\ncontract calculator{\r\n    uint256 result = 0;\r\n\r\n    function add(uint256 num)public{\r\n        result += num;\r\n    }\r\n\r\n    function substract(uint256 num)public{\r\n        result -= num;\r\n    }\r\n\r\n    function multiply(uint256 num)public{\r\n        result *= num;\r\n    }\r\n\r\n    function get() public view returns (uint256){\r\n        return result;\r\n    }\r\n}\r\n\r\n\r\n",
+        "file": "calculator.sol"
+      }
+    }
+  }
+}
